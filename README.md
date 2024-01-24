@@ -64,4 +64,17 @@ Ensure you have the following installed on your machine:
 
 Replace the placeholders with your Firebase project details.
 
+### Usage
+1. Start the React app:
+   
+      ```bash
+      npm start
+      
+2. Open your browser and go to http://localhost:3000 to view and interact with the Task Tracker App.
+
+### Contributing
+Contributions are welcome! If you have any improvements or feature suggestions, feel free to submit a pull request.
+
+### License
+This project is licensed under the MIT License.
    
