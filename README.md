@@ -39,4 +39,29 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/task-tracker-app.git
+   git clone https://github.com/charvisethi/tasktrackerapp
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd task-tracker-app
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+4. Create a .env file in the root directory and add your Firebase configuration:
+
+   ```makefile
+   REACT_APP_FIREBASE_API_KEY=your-api-key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
+   REACT_APP_FIREBASE_DATABASE_URL=your-database-url
+   REACT_APP_FIREBASE_PROJECT_ID=your-project-id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+   REACT_APP_FIREBASE_APP_ID=your-app-id
+
+Replace the placeholders with your Firebase project details.
+
+   
